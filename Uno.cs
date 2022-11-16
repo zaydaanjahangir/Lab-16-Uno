@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    public class Uno
-    {
-         Decks DrawPile { get; set; }
-         List<Card> DiscardPile { get; set; }
-    }
+public class Uno
+{
+    public List<Player> Players { get; set; }
+    public Decks DrawPile { get; set; }
+    public List<Card> DiscardPile { get; set; }
 }
-
+}
