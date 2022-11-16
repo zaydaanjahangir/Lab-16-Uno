@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uno
 {
-    internal class Card
+    public class Card
     {
         public CardColor Color { get; set; }
         public CardValue Value { get; set; }
