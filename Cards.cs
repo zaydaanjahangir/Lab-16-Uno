@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Uno
-{ 
-    internal class Cards
+{
+    internal class Card
     {
         public CardColor Color { get; set; }
         public CardValue Value { get; set; }
-        public int score { get; set; }
+        public int Score { get; set; }
 
         public enum CardColor
         {
@@ -33,11 +33,13 @@ namespace Uno
             Seven,
             Eight,
             Nine,
+            Reverse,
+            Skip,
             DrawTwo,
             DrawFour,
             Wild,
         }
 
-    } 
-    
+    }
+
 }
