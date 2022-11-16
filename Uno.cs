@@ -8,7 +8,8 @@ namespace Uno
 {
     public class Uno
     {
-        public CardDeck DrawPile { get; set; }
-        public List<Cards> DiscardPile { get; set; }
+         Decks DrawPile { get; set; }
+         List<Card> DiscardPile { get; set; }
     }
 }
+
